@@ -1,0 +1,25 @@
+SPACE
+|.......
+..|||..|
+..|.|...
+........
+
+SHAPE T
+TTTT
+
+SHAPE e
+..e
+eee
+
+SHAPE r
+rr
+rr
+
+SHAPE i
+i..
+iii
+
+SHAPE s
+.ss
+ss.
+

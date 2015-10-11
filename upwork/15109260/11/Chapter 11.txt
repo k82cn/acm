@@ -1,0 +1,56 @@
+This lab will exercise your understanding of some of the 
+concepts covered in Chapter 11:  arrays; arrays as function parameters
+
+READ THE FOLLOWING CAREFULLY TO GET FULL VALUE FROM THE PRACTICE.
+
+1.  Write a program to do the following:
+
+2.  Create an array to hold up to 20 integers.
+
+3.  Create a data file or download attached text file (twenty_numbers.txt) that
+    contains UP TO 20 integers.
+    
+4.  Request the input and output file names from the user.  Open the files
+    being sure to check the file state.
+    
+5.  Request from the user HOW MANY numbers to read from the data file,
+    up to twenty.  Request the number until the user enters 20 or less, but not less
+    than 0.  The user enters the number of integers to read.  The integers are stored
+    in the file and are to be read from the file.
+    
+6.  Write an integer function that reads from the opened data file: the number
+    of integers the user wants to read, and store the numbers in 
+    in the array. For example, if the user wants to read 13 numbers, 
+    read 13 of the 20 that may be in the file.
+    
+7.  Write an integer function that writes to the opened output file AND THE
+    CONSOLE, the numbers stored in the array.
+    
+8.  NO GLOBAL variables are to be used.  The input and output file variables
+    must be passed into the functions as parameters, the number of integers
+    to read and output must be passed in to each function, the array must be passed
+    in to each function.
+    
+
+
+If you like to include the following line of code:  system("pause");
+You MAY need to:  #include <cstdlib>
+
+Complete as much as you can before you submit ensuring what you've completed compiles.  You do not have to correctly
+solve the coding exercise, however, you MUST include code that ATTEMPTS to solve the problem to get credit.
+
+The program may be named any name of your choice and must have a .cpp extention.  Do NOT include
+spaces in program names; variables may be any name of your choice.
+
+You DO NOT have to comment these programs, however, please include your NAME as a comment in ALL code files.
+
+SUBMIT the code file only (*.cpp). 
+
+The program MUST compile and run and to get credit. 
+
+You MAY zip the files and submit the zipped files.
+
+MUST be submitted before end of class unless otherwise stated.
+
+Questions will be entertained; solution may be discussed in class. This is a collaborative effort to provide examples
+and practice for your understanding.

@@ -1,0 +1,42 @@
+FOUND FIT
+SPACE:
+height: 3 width: 8
+ddaabbbb
+ddaacff|
+edccc|||
+
+6 shapes placed
+Shape at (0,2)
+SHAPE a
+height: 2; width: 2; rotation: CW0
+aa
+aa
+
+Shape at (0,4)
+SHAPE b
+height: 1; width: 4; rotation: CW90
+bbbb
+
+Shape at (1,2)
+SHAPE c
+height: 2; width: 3; rotation: CW270
+..c
+ccc
+
+Shape at (0,0)
+SHAPE d
+height: 3; width: 2; rotation: CW0
+dd
+dd
+.d
+
+Shape at (2,0)
+SHAPE e
+height: 1; width: 1; rotation: CW0
+e
+
+Shape at (1,5)
+SHAPE f
+height: 1; width: 2; rotation: CW90
+ff
+

@@ -1,0 +1,46 @@
+<project default="mumak">
+    <property name="lib.dir" value="lib"/>
+    <property name="top.dir" value="/Users/dma/workspace/14965268"/>
+    <property name="TraceBuilder" value="org.apache.hadoop.tools.rumen.TraceBuilder"/>
+    <property name="Folder" value="org.apache.hadoop.tools.rumen.Folder"/>
+    <property name="Mumak" value=""/>
+
+    <path id="classpath">
+        <fileset dir="${lib.dir}" includes="*.jar"/>
+    </path>
+
+    <target name="mumak" depends="folder">
+        <java fork="true" classname="${Mumak}">
+            <arg value="-input-cycle"/>
+            <arg value="1m"/>
+            <arg value="file://${top.dir}/job-trace.json"/>
+            <arg value="file://${top.dir}/job-trace-1hr.json"/>
+            <classpath>
+                <path refid="classpath"/>
+            </classpath>
+        </java>
+    </target>
+
+    <target name="folder" depends="traceBuilder">
+        <java fork="true" classname="${Folder}">
+            <arg value="-input-cycle"/>
+            <arg value="1m"/>
+            <arg value="file://${top.dir}/job-trace.json"/>
+            <arg value="file://${top.dir}/job-trace-1hr.json"/>
+            <classpath>
+                <path refid="classpath"/>
+            </classpath>
+        </java>
+    </target>
+
+    <target name="traceBuilder">
+        <java fork="true" classname="${TraceBuilder}">
+            <arg value="file://${top.dir}/job-trace.json"/>
+            <arg value="file://${top.dir}/topology.output"/>
+            <arg value="file://${top.dir}/logs/history"/>
+            <classpath>
+                <path refid="classpath"/>
+            </classpath>
+        </java>
+    </target>
+</project>

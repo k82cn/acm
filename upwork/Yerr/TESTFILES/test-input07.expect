@@ -1,0 +1,45 @@
+FOUND FIT
+SPACE:
+height: 4 width: 8
+|tTTTTss
+tt|||ss|
+it|.|err
+iiieeerr
+
+6 shapes placed
+Shape at (0,2)
+SHAPE T
+height: 1; width: 4; rotation: CW90
+TTTT
+
+Shape at (2,3)
+SHAPE e
+height: 2; width: 3; rotation: CW90
+..e
+eee
+
+Shape at (2,0)
+SHAPE i
+height: 2; width: 3; rotation: CW0
+i..
+iii
+
+Shape at (2,6)
+SHAPE r
+height: 2; width: 2; rotation: CW0
+rr
+rr
+
+Shape at (0,5)
+SHAPE s
+height: 2; width: 3; rotation: CW90
+.ss
+ss.
+
+Shape at (0,0)
+SHAPE t
+height: 3; width: 2; rotation: CW180
+.t
+tt
+.t
+

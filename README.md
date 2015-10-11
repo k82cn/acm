@@ -1,2 +1,4 @@
-# algo
-The source code of algorithm (ACM, Linux &amp; other tips)
+Algo
+====
+
+The source code of algorithm, Linux and so on.

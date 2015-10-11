@@ -1,0 +1,13 @@
+This problem has no solution
+
+SPACE
+..
+..
+.|
+
+SHAPE a
+aaa
+
+SHAPE b
+bbb
+

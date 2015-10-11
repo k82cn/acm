@@ -1,0 +1,21 @@
+FOUND FIT
+SPACE:
+height: 1 width: 3
+cba
+
+3 shapes placed
+Shape at (0,2)
+SHAPE a
+height: 1; width: 1; rotation: CW0
+a
+
+Shape at (0,1)
+SHAPE b
+height: 1; width: 1; rotation: CW0
+b
+
+Shape at (0,0)
+SHAPE c
+height: 1; width: 1; rotation: CW0
+c
+

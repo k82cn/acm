@@ -1,0 +1,8 @@
+Smith S 0 35000.00 .02
+Jones M 2 60000.00 .05
+Harvey M 0 100000.00 .04
+Potter Q 1 55000.00 .03
+Groober S 1 75000.00 .0
+Chacha M 1 150000.00 .03
+Deluca S 1 70000.00 .50
+

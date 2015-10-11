@@ -1,0 +1,56 @@
+public class FitIt{
+
+  // Factory methd to produce shapes. Call a constructor for one of
+  // your own classes here. The layout given is be in the format
+  //
+  // ..e
+  // eee
+  //
+  // Newlines (\n) show breaks in the rows of the Shape.  The period
+  // (.) is used to represent empty blocks. Any other character is a
+  // filled block even if it does not match the given displayChar.
+  // The Shape returned by this method should have the display
+  // character displayChar even if that character does not appear in
+  // the layout string. Shapes should be initialized to have rotation
+  // CW0.  If the shape contains any empty border sides, throw a
+  // FitItException with an informative message.
+  public static Shape makeShape(String layout,char displayChar);
+
+  // Factory method to produce instances of space. Call a constructor
+  // for one of your own classes here. The layout parameter will be in
+  // the format
+  //
+  // |.......
+  // ..|||..|
+  // ..|.|...
+  // ........
+  //
+  // where vertical bars are filled blocks and periods are empty blocks.
+  public static Space makeSpace(String layout);
+
+  // Search for a fit of the given shapes in the given space. Return
+  // null if no fit exists. If a fit is found, return a space with all
+  // shapes placed in it. It is very useful for this method to be
+  // recursive.
+  public static Space searchForFit(Space space, List<Shape> unplaced);
+
+  // Read an input file which contains a fitting problem in it. The
+  // input file is the zeroth command line argument. The file format
+  // contains records for SPACE and SHAPE. There should only be one
+  // SPACE per file but potentially many SHAPEs.  SHAPE is followed by
+  // a display character for the shape.  SPACE and SHAPE records
+  // continue until a black line.  Any line that does not start with
+  // SPACE or SHAPE should be ignored.  The main method should read
+  // this file, initialize spaces and shapes using the methods
+  // makeShape() and makeSpace().  It should then execute
+  // searchforFit(space,shapes) and report the results as either
+  // 
+  // NO FIT FOUND
+  // 
+  // or
+  // 
+  // FIT FOUND
+  //   then call the toString() method of space
+  public static void main(String args[]) throws Exception;
+
+}

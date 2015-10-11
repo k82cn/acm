@@ -1,0 +1,77 @@
+This lab will exercise your understanding of some of the 
+concepts covered in Chapters 8 and 9:  functions; scope
+
+READ THE FOLLOWING CAREFULLY TO GET FULL VALUE FROM THE PRACTICE.
+
+1.  Download the program reWriteThis.cpp.  You will
+    use the code in reWriteThis.cpp to rewrite the processes into
+    functions by performing the following:
+
+2.  Create int function(s) for opening the input and output files.  These
+    opens may be in the same function.  This function MUST RETURN an int value 
+    to indicate the success or failure of the open(s).  Test this value and 
+    take appropriate action after the function call.  This function MUST have
+    the following parameters, in any order:
+      a.  input file stream
+      b.  output file stream
+    
+3.  Create a void function to read the data file.  This function MUST have the
+    following parameters, in any order:
+      a.  input file stream
+      b.  OUT parameter to return the total of all values
+      c.  OUT parameter to return the number of values read
+      
+4.  Create a value returning function (I'm leaving it up to YOU to choose
+    the correct type) to return the avg of the numbers read.  This function
+    MUST have the following parameters, in any order:
+      a.  IN parameter to pass in the total of the numbers read
+      b.  IN parameter to pass in the number of values read
+      
+5.  Create void function(s) for closing the input and output files.  These
+    closes may be in the same function.  This function MUST have the following
+    parameters, in any order.
+      a.  input file stream
+      b.  output file stream
+
+6.  Move the global variables (defined before main in reWriteThis.cpp)
+    and place them within the appropriate functions.  Some will be 
+    needed with the related function, some will still be needed in main.
+    
+7.  FOR PRACTICE, do NOT use the same variable names as ARGUMENTS in the
+    function call and PARAMETERS in the function heading definition.
+    
+8.  You MUST use function prototypes (before main) and you MUST define
+    your functions AFTER main.
+    
+9.  The console (cout) and file writes remain in main.
+
+10. Either create a file named inFile.txt that contains:
+      a.  The number of values to add
+      b.  A number of integer values matching the number read in a.
+   
+    OR 
+    
+      c.  Download and use attached inFile.txt
+
+
+If you like to include the following line of code:  system("pause");
+You MAY need to:  #include <cstdlib>
+
+Complete as much as you can before you submit ensuring what you've completed compiles.  You do not have to correctly
+solve the coding exercise, however, you MUST include code that ATTEMPTS to solve the problem to get credit.
+
+The program may be named any name of your choice and must have a .cpp extention.  Do NOT include
+spaces in program names; variables may be any name of your choice.
+
+You DO NOT have to comment these programs, however, please include your NAME as a comment in ALL code files.
+
+SUBMIT the code file only (*.cpp). 
+
+The program MUST compile and run and to get credit. 
+
+You MAY zip the files and submit the zipped files.
+
+MUST be submitted before end of class unless otherwise stated.
+
+Questions will be entertained; solution may be discussed in class. This is a collaborative effort to provide examples
+and practice for your understanding.

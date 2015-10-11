@@ -1,0 +1,21 @@
+This problem has no solution
+
+SPACE
+....
+....
+.|..
+.||.
+....
+
+SHAPE c
+ccc
+.c.
+
+SHAPE a
+aaa
+aaa
+
+SHAPE b
+bbb
+bb.
+

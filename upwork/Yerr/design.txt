@@ -1,0 +1,48 @@
+DESCRIBE WHAT CLASSES WERE USED TO IMPLEMENT THE Shape
+INTERFACE. DETAIL ANY CLASSES YOU CREATED FOR THIS PURPOSE. DESCRIBE
+THE FIELDS THESE CLASSES CONTAIN AND HOW WERE THEY USED TO IMPLEMENT
+isFilledAt(r,c) AND rotateCW().  BE SPECIFIC ABOUT HOW YOU ACHIEVED
+ROTATION.
+
+In src directory, class ShapeImpl (ShapeImpl.java) is used to implement Shape interface; and there's also an Rotation enum for rotation information.
+
+There're 5 class members in ShapImpl:
+    private int height; // The height of Shape
+    private int width; // The width of Shape
+    private char displayChar; // The display char in Shape
+    private char[][] data; // All char in shape, including display char and '.'
+    private Rotation rotation; // Current rotation of Shap
+
+for isFilledAt(r, c): check whether there're display char at [r, c]; if [r, c] out of bounder, throw exception
+for rotateCW(), using the following steps:
+    -> build a new 2D array for rotation
+    -> copy chars from old array to new array by rotating data clock-wise
+    -> update height & width for the new 2D array
+    -> update rotation to next one (implement Rotation.next for each items in Rotation)
+
+
+DESCRIBE WHAT CLASSES WERE USED TO IMPLEMENT THE Space
+INTERFACE. DETAIL ANY CLASSES YOU CREATED FOR THIS PURPOSE. DESCRIBE
+THE FIELDS THESE CLASSES CONTAIN AND HOW WERE THEY USED TO IMPLEMENT
+THE METHODS
+- isFilledAt(r,c)
+- removeShapeByDisplayChar(dc)
+- placeShapeAt(r,c)
+BE SPECIFIC WHEN DESCRIBING placeShapeAt(r,c)
+
+In src directory, class SpaceImpl (SpaceImpl.java) is used to implement Space interface.
+
+There're 4 class members in SpaceImpl:
+
+    private int height; // The height of Space
+    private int width; // The width of Space
+    private char[][] data; // The two-dimensional array of space
+    private Map<Character, List<String>> placedShape = new TreeMap<Character, List<String>>(); // The map to store information of placed shapes; using TreeMap here, so the entries are soted by key.
+
+
+for isFilledAt(r,c): check whether there're a char at [r, c]; if [r, c] out of bounder, return false;
+for removeShapeByDisplayChar(dc): got through all item in data, update the char to '.' if it's dc; and then remove shapes info from "placedShape"
+for placeShapeAt(r,c), using the following steps:
+    -> check whether shape can be placed at [r, c]; if can not, throw exception
+    -> go through all items in shape: if shape is filled at [r, c], place it into Space 
+    -> generate Shape's info and place info into placeShape map

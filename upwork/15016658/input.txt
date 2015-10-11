@@ -1,0 +1,19 @@
+City Sydney 30                  # Sydney airport incurs 30 minutes delay
+City Melbourne 20               # Melbourne airport incurs 20 minutes delay
+City Adelaide 20                # Adelaide airport incurs 20 minutes delay
+City Brisbane 30                # Brisbane airport incurs 30 minutes delay
+City Canberra 40                # Canberra airport incurs 40 minutes delay
+Time Sydney Melbourne 90        # Travel time Sydney to Melbourne is 90 minutes
+Time Sydney Adelaide 120        # Travel time Sydney to Adelaide is 120 minutes
+Time Sydney Brisbane 90         # Travel time Sydney to Brisbane is 90 minutes
+Time Sydney Canberra 50         # Travel time Sydney to Canberra is 50 minutes
+Time Melbourne Adelaide 50      # Travel time Melbourne Adelaide is 50 minutes
+Time Melbourne Brisbane 120     # Travel time Melbourne to Brisbane is 120 minutes
+Time Melbourne Canberra 60      # Travel time Melbourne to Canberra is 60 minutes
+Time Adelaide Brisbane 120      # Travel time Adelaide to Brisbane is 120 minutes
+Time Adelaide Canberra 110      # Travel time Adelaide to Canberra is 110 minutes
+Time Brisbane Canberra 100      # Travel time Brisbane to Canberra is 100 minutes
+Flight Adelaide Brisbane        # Flight is required from Adelaide to Brisbane
+Flight Melbourne Adelaide       # Flight is required from Melbourne to Adelaide
+Flight Sydney Brisbane          # Flight is required from Sydney to Brisbane
+Flight Sydney Canberra          # Flight is required from Sydney to Canberra

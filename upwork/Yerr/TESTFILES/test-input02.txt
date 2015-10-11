@@ -1,0 +1,18 @@
+SOLUTION
+abc
+aa|
+
+SPACE
+...
+..|
+
+SHAPE c
+c
+
+SHAPE b
+b
+
+SHAPE a
+aa
+.a
+

@@ -1,0 +1,19 @@
+SPACE
+..
+..
+.|
+
+SHAPE a
+aa
+
+SHAPE b
+bbb
+
+Any text that doesn't start with SPACE or SHAPE should be
+ignored. That includes these lines and the SOLUTION below which is for
+documentation purposes only.
+
+SOLUTION
+ba
+ba
+b|

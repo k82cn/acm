@@ -1,0 +1,5 @@
+4 Jessie Joybat 5 2 1 1
+6 Henry Hastie 5 1 0 0
+10 Carson Batson 4 3 1 2
+2 Sam Hamm 4 0 0 0
+6 Henry Hastie 3 3 0 2

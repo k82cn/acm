@@ -1,0 +1,41 @@
+SOLUTION
+|tTTTTss
+tt|||ss|
+it|.|err
+iiieeerr
+
+SPACE
+|.......
+..|||..|
+..|.|...
+........
+
+SHAPE T
+T
+T
+T
+T
+
+SHAPE e
+ee
+.e
+.e
+
+SHAPE t
+t.
+tt
+t.
+
+SHAPE s
+s.
+ss
+.s
+
+SHAPE r
+rr
+rr
+
+SHAPE i
+i..
+iii
+

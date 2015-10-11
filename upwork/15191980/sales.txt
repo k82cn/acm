@@ -1,0 +1,9 @@
+John Jacobs 33422 7 1 -1 0
+Mark Zuckerberg 22342 1 2 10 1 -1 0
+Bill Gates 445566 8 2 9 2 12 3 -1 0
+Alan Turing 010101 2 2 8 5 6 4 7 4 -1 0
+Stephen Hawking 314159 8 12 -1 0
+Steve Jobs 022455 7 6 -1 0
+Grace Hopper 120906 10 10 11 5 12 4 14 4 -1 0
+Ada Byron 121015 7 4 8 6 9 1 -1 0
+

@@ -1,0 +1,40 @@
+SPACE
+........
+.......|
+.....|||
+
+SHAPE a
+aa
+aa
+
+SHAPE b
+bbbb
+
+SHAPE c
+c.
+c.
+cc
+
+SHAPE d
+.dd
+ddd
+
+SHAPE e
+e
+
+SHAPE f
+f
+f
+
+
+SOLUTION
+aadddffe
+aaddccc|
+bbbbc|||
+
+A = 0 0 CW0
+B = 2 0 CW0
+C = 1 4 CW90
+D = 0 2 CW180
+E = 0 7 CW0
+F = 0 5 CW90

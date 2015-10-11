@@ -1,0 +1,24 @@
+SPACE
+.....
+...|.
+...|.
+
+SHAPE a
+aa
+.a
+
+SHAPE b
+bbb
+..b
+
+SHAPE c
+c
+c
+
+SHAPE d
+dd
+
+SOLUTION
+aabbb
+acc|b
+.dd|.

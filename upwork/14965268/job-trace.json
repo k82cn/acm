@@ -1,0 +1,665 @@
+{
+  "priority" : "NORMAL",
+  "jobID" : null,
+  "user" : null,
+  "jobName" : "ModifSearch",
+  "mapTasks" : [ ],
+  "finishTime" : -1,
+  "reduceTasks" : [ ],
+  "submitTime" : -1,
+  "launchTime" : -1,
+  "totalMaps" : -1,
+  "totalReduces" : -1,
+  "otherTasks" : [ ],
+  "computonsPerMapInputByte" : -1,
+  "computonsPerMapOutputByte" : -1,
+  "computonsPerReduceInputByte" : -1,
+  "computonsPerReduceOutputByte" : -1,
+  "heapMegabytes" : 200,
+  "outcome" : null,
+  "jobtype" : "JAVA",
+  "directDependantJobs" : [ ],
+  "successfulMapAttemptCDFs" : [ {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  } ],
+  "failedMapAttemptCDFs" : [ {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  } ],
+  "successfulReduceAttemptCDF" : {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  },
+  "failedReduceAttemptCDF" : {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  },
+  "mapperTriesToSucceed" : null,
+  "failedMapperFraction" : 0.0,
+  "relativeTime" : 0,
+  "clusterMapMB" : -1,
+  "clusterReduceMB" : -1,
+  "jobMapMB" : 200,
+  "jobReduceMB" : 200,
+  "queue" : "default"
+} {
+  "priority" : "NORMAL",
+  "jobID" : null,
+  "user" : null,
+  "jobName" : "ModifSearch",
+  "mapTasks" : [ ],
+  "finishTime" : -1,
+  "reduceTasks" : [ ],
+  "submitTime" : -1,
+  "launchTime" : -1,
+  "totalMaps" : -1,
+  "totalReduces" : -1,
+  "otherTasks" : [ ],
+  "computonsPerMapInputByte" : -1,
+  "computonsPerMapOutputByte" : -1,
+  "computonsPerReduceInputByte" : -1,
+  "computonsPerReduceOutputByte" : -1,
+  "heapMegabytes" : 200,
+  "outcome" : null,
+  "jobtype" : "JAVA",
+  "directDependantJobs" : [ ],
+  "successfulMapAttemptCDFs" : [ {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  } ],
+  "failedMapAttemptCDFs" : [ {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  } ],
+  "successfulReduceAttemptCDF" : {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  },
+  "failedReduceAttemptCDF" : {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  },
+  "mapperTriesToSucceed" : null,
+  "failedMapperFraction" : 0.0,
+  "relativeTime" : 0,
+  "clusterMapMB" : -1,
+  "clusterReduceMB" : -1,
+  "jobMapMB" : 200,
+  "jobReduceMB" : 200,
+  "queue" : "default"
+} {
+  "priority" : "NORMAL",
+  "jobID" : null,
+  "user" : null,
+  "jobName" : "ModifSearch",
+  "mapTasks" : [ ],
+  "finishTime" : -1,
+  "reduceTasks" : [ ],
+  "submitTime" : -1,
+  "launchTime" : -1,
+  "totalMaps" : -1,
+  "totalReduces" : -1,
+  "otherTasks" : [ ],
+  "computonsPerMapInputByte" : -1,
+  "computonsPerMapOutputByte" : -1,
+  "computonsPerReduceInputByte" : -1,
+  "computonsPerReduceOutputByte" : -1,
+  "heapMegabytes" : 200,
+  "outcome" : null,
+  "jobtype" : "JAVA",
+  "directDependantJobs" : [ ],
+  "successfulMapAttemptCDFs" : [ {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  } ],
+  "failedMapAttemptCDFs" : [ {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  } ],
+  "successfulReduceAttemptCDF" : {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  },
+  "failedReduceAttemptCDF" : {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  },
+  "mapperTriesToSucceed" : null,
+  "failedMapperFraction" : 0.0,
+  "relativeTime" : 0,
+  "clusterMapMB" : -1,
+  "clusterReduceMB" : -1,
+  "jobMapMB" : 200,
+  "jobReduceMB" : 200,
+  "queue" : "default"
+} {
+  "priority" : "NORMAL",
+  "jobID" : null,
+  "user" : null,
+  "jobName" : "ModifSearch",
+  "mapTasks" : [ ],
+  "finishTime" : -1,
+  "reduceTasks" : [ ],
+  "submitTime" : -1,
+  "launchTime" : -1,
+  "totalMaps" : -1,
+  "totalReduces" : -1,
+  "otherTasks" : [ ],
+  "computonsPerMapInputByte" : -1,
+  "computonsPerMapOutputByte" : -1,
+  "computonsPerReduceInputByte" : -1,
+  "computonsPerReduceOutputByte" : -1,
+  "heapMegabytes" : 200,
+  "outcome" : null,
+  "jobtype" : "JAVA",
+  "directDependantJobs" : [ ],
+  "successfulMapAttemptCDFs" : [ {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  } ],
+  "failedMapAttemptCDFs" : [ {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  } ],
+  "successfulReduceAttemptCDF" : {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  },
+  "failedReduceAttemptCDF" : {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  },
+  "mapperTriesToSucceed" : null,
+  "failedMapperFraction" : 0.0,
+  "relativeTime" : 0,
+  "clusterMapMB" : -1,
+  "clusterReduceMB" : -1,
+  "jobMapMB" : 200,
+  "jobReduceMB" : 200,
+  "queue" : "default"
+} {
+  "priority" : "NORMAL",
+  "jobID" : null,
+  "user" : null,
+  "jobName" : "ModifSearch",
+  "mapTasks" : [ ],
+  "finishTime" : -1,
+  "reduceTasks" : [ ],
+  "submitTime" : -1,
+  "launchTime" : -1,
+  "totalMaps" : -1,
+  "totalReduces" : -1,
+  "otherTasks" : [ ],
+  "computonsPerMapInputByte" : -1,
+  "computonsPerMapOutputByte" : -1,
+  "computonsPerReduceInputByte" : -1,
+  "computonsPerReduceOutputByte" : -1,
+  "heapMegabytes" : 200,
+  "outcome" : null,
+  "jobtype" : "JAVA",
+  "directDependantJobs" : [ ],
+  "successfulMapAttemptCDFs" : [ {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  } ],
+  "failedMapAttemptCDFs" : [ {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  } ],
+  "successfulReduceAttemptCDF" : {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  },
+  "failedReduceAttemptCDF" : {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  },
+  "mapperTriesToSucceed" : null,
+  "failedMapperFraction" : 0.0,
+  "relativeTime" : 0,
+  "clusterMapMB" : -1,
+  "clusterReduceMB" : -1,
+  "jobMapMB" : 200,
+  "jobReduceMB" : 200,
+  "queue" : "default"
+} {
+  "priority" : "NORMAL",
+  "jobID" : null,
+  "user" : null,
+  "jobName" : "ModifSearch",
+  "mapTasks" : [ ],
+  "finishTime" : -1,
+  "reduceTasks" : [ ],
+  "submitTime" : -1,
+  "launchTime" : -1,
+  "totalMaps" : -1,
+  "totalReduces" : -1,
+  "otherTasks" : [ ],
+  "computonsPerMapInputByte" : -1,
+  "computonsPerMapOutputByte" : -1,
+  "computonsPerReduceInputByte" : -1,
+  "computonsPerReduceOutputByte" : -1,
+  "heapMegabytes" : 200,
+  "outcome" : null,
+  "jobtype" : "JAVA",
+  "directDependantJobs" : [ ],
+  "successfulMapAttemptCDFs" : [ {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  } ],
+  "failedMapAttemptCDFs" : [ {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  } ],
+  "successfulReduceAttemptCDF" : {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  },
+  "failedReduceAttemptCDF" : {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  },
+  "mapperTriesToSucceed" : null,
+  "failedMapperFraction" : 0.0,
+  "relativeTime" : 0,
+  "clusterMapMB" : -1,
+  "clusterReduceMB" : -1,
+  "jobMapMB" : 200,
+  "jobReduceMB" : 200,
+  "queue" : "default"
+} {
+  "priority" : "NORMAL",
+  "jobID" : null,
+  "user" : null,
+  "jobName" : "ModifSearch",
+  "mapTasks" : [ ],
+  "finishTime" : -1,
+  "reduceTasks" : [ ],
+  "submitTime" : -1,
+  "launchTime" : -1,
+  "totalMaps" : -1,
+  "totalReduces" : -1,
+  "otherTasks" : [ ],
+  "computonsPerMapInputByte" : -1,
+  "computonsPerMapOutputByte" : -1,
+  "computonsPerReduceInputByte" : -1,
+  "computonsPerReduceOutputByte" : -1,
+  "heapMegabytes" : 200,
+  "outcome" : null,
+  "jobtype" : "JAVA",
+  "directDependantJobs" : [ ],
+  "successfulMapAttemptCDFs" : [ {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  } ],
+  "failedMapAttemptCDFs" : [ {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  } ],
+  "successfulReduceAttemptCDF" : {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  },
+  "failedReduceAttemptCDF" : {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  },
+  "mapperTriesToSucceed" : null,
+  "failedMapperFraction" : 0.0,
+  "relativeTime" : 0,
+  "clusterMapMB" : -1,
+  "clusterReduceMB" : -1,
+  "jobMapMB" : 200,
+  "jobReduceMB" : 200,
+  "queue" : "default"
+} {
+  "priority" : "NORMAL",
+  "jobID" : null,
+  "user" : null,
+  "jobName" : "ModifSearch",
+  "mapTasks" : [ ],
+  "finishTime" : -1,
+  "reduceTasks" : [ ],
+  "submitTime" : -1,
+  "launchTime" : -1,
+  "totalMaps" : -1,
+  "totalReduces" : -1,
+  "otherTasks" : [ ],
+  "computonsPerMapInputByte" : -1,
+  "computonsPerMapOutputByte" : -1,
+  "computonsPerReduceInputByte" : -1,
+  "computonsPerReduceOutputByte" : -1,
+  "heapMegabytes" : 200,
+  "outcome" : null,
+  "jobtype" : "JAVA",
+  "directDependantJobs" : [ ],
+  "successfulMapAttemptCDFs" : [ {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  } ],
+  "failedMapAttemptCDFs" : [ {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  }, {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  } ],
+  "successfulReduceAttemptCDF" : {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  },
+  "failedReduceAttemptCDF" : {
+    "numberValues" : 0,
+    "rankings" : [ ],
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808
+  },
+  "mapperTriesToSucceed" : null,
+  "failedMapperFraction" : 0.0,
+  "relativeTime" : 0,
+  "clusterMapMB" : -1,
+  "clusterReduceMB" : -1,
+  "jobMapMB" : 200,
+  "jobReduceMB" : 200,
+  "queue" : "default"
+}

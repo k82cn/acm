@@ -1,0 +1,27 @@
+SOLUTION
+aaccbb.
+aacccbb
+.dddbb.
+
+SPACE
+.......
+.......
+.......
+
+SHAPE b
+.b.
+bbb
+b.b
+
+SHAPE c
+cc
+cc
+c.
+
+SHAPE a
+aa
+aa
+
+SHAPE d
+ddd
+

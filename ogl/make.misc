@@ -1,0 +1,13 @@
+OGL_TYPE=lin
+
+#OGL_MODE=Debug
+OGL_MODE=Release
+
+	ifeq (${OGL_MODE}, Debug)
+		OGL_CFLAGS=-DLIN -g -Wall -rdynamic
+	else
+		OGL_CFLAGS=-DLIN -O2 -Wall --std=c++11
+	endif
+
+OGL_EXT_LIBS=-lACE -lpthread -lconfig++ -llog4cxx -lprotobuf
+

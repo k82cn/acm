@@ -1,0 +1,3 @@
+
+Please do NOT change the directory structure or directory names.
+You are allowed to ADD subdirectories under the project directories...

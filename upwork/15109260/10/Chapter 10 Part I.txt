@@ -1,0 +1,83 @@
+This lab will exercise your understanding of some of the 
+concepts covered in Chapter10:  enum; structure
+
+READ THE FOLLOWING CAREFULLY TO GET FULL VALUE FROM THE PRACTICE. 
+
+THIS LAB WILL AID IN THE SOLUTION TO THE MANDATORY LAB NEXT WEEK.
+
+This exercise will have the user enter some information about a movie.
+
+1. Create an enumerated type (enum) that represents movie ratings:
+   
+   G, PG, PG_13, R, NC_17
+   
+(Remember enum names must following C++ variable name rules, so no dashes (-) allowed)
+
+2.  Create a STRUCTURE with the following information:
+
+    move name
+    movie rating   DEFINE this as the TYPE of the enum created in step 1.
+    year produced
+    main star of the movie, i.e., person
+    value indicating whether the user saw the movie.  Can be a char, int, etc.
+      storing a Y or N type value
+    value indicating whether the user liked the movie.  Can be a char, int, etc.
+      storing a Y or N type value
+      
+3.  Request the above information from the user and store in the structure.  The
+    rating may be requested as follows:
+    
+     1 - G 
+     2 - PG
+     3 - PG-13
+     4 - R
+     5 - NC-17
+
+NOTE:  The following may come in handy: structureVariable.move_ratingVariable = enumType(rating value entered)
+
+Where structureVariable    is the variable name of the enum type
+      move_ratingVariable  is the variable name in the structure for move rating
+      enumType             is the name of the defined enum
+      rating value entered is the variable containing the rating value the user entered
+      
+Try the above before asking!!!
+      
+4.  Output the information the user entered from the data stored in the STRUCTURE.
+
+    The move name, the year, the main star
+    
+    Output the rating using the enum as follows:
+    
+     if  G - This movie is rated G:  General Audiences
+     if  PG - This movie is rated PG : Parental Guidance Suggested
+     if  PG_13 - This movie is rated PG-13:  Parent's Strongly Cautioned
+     if  R - This movie is rated R:  Under 17 requires accompanying adult or adult guardian
+     if  NC_17 - This movie is rated NC-17: No one under 17 and under admitted
+
+    
+    If the user saw the movie output You saw the movie; else output You did not see the movie.
+    
+    If the user liked the movie, output You Liked the Move; else output You did not like the movie.
+    
+             
+If you like to include the following line of code:  system("pause");
+You MAY need to:  #include <cstdlib>
+
+Complete as much as you can before you submit ensuring what you've completed compiles.  You do not have to correctly
+solve the coding exercise, however, you MUST include code that ATTEMPTS to solve the problem to get credit.
+
+The program may be named any name of your choice and must have a .cpp extention.  Do NOT include
+spaces in program names; variables may be any name of your choice.
+
+You DO NOT have to comment these programs, however, please include your NAME as a comment in ALL code files.
+
+SUBMIT the code file only (*.cpp). 
+
+The program MUST compile and run and to get credit. 
+
+You MAY zip the files and submit the zipped files.
+
+MUST be submitted before end of class unless otherwise stated.
+
+Questions will be entertained; solution may be discussed in class. This is a collaborative effort to provide examples
+and practice for your understanding.
